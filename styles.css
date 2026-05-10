@@ -179,7 +179,8 @@ a {
   z-index: -2;
   background:
     linear-gradient(90deg, rgba(7, 13, 16, 0.74), rgba(7, 13, 16, 0.18) 64%, rgba(7, 13, 16, 0.38)),
-    url("https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1800&q=82") center / cover;
+    radial-gradient(circle at 72% 32%, rgba(45, 212, 191, 0.42), transparent 30%),
+    linear-gradient(135deg, #1f2937 0%, #475569 42%, #a16207 100%);
 }
 
 .hero::after {
